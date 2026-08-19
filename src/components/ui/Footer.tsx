@@ -63,7 +63,7 @@ const Footer = () => {
               >
                 <FiLinkedin className="h-6 w-6" />
               </a>
-              <a
+              {/* <a
                 href={`https://twitter.com/${SITE.twitter.replace('@', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Footer = () => {
                 aria-label="Twitter"
               >
                 <FiTwitter className="h-6 w-6" />
-              </a>
+              </a> */}
               <a
                 href={`mailto:${SITE.email}`}
                 className="text-gray-600 hover:text-gray-900 transition-colors hover:scale-110"

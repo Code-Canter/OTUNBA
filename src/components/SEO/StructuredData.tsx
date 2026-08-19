@@ -1,3 +1,4 @@
+// src/components/SEO/StructuredData.tsx
 import { SITE } from '@/lib/constants';
 
 const StructuredData = () => {
@@ -12,11 +13,17 @@ const StructuredData = () => {
       SITE.linkedin,
       `https://twitter.com/${SITE.twitter.replace('@', '')}`
     ],
-    "jobTitle": "Fullstack Developer | Software Engineer | API & Web Systems Developer",
+    "jobTitle": "Full-Stack Software Developer",
     "description": SITE.description,
-    "worksFor": {
-      "@type": "Organization",
-      "name": SITE.name
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": SITE.location.city,
+      "addressRegion": SITE.location.region,
+      "addressCountry": SITE.location.country
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Alabian Solutions"
     }
   };
 

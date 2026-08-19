@@ -16,6 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE.url),
+
   title: {
     default: `${SITE.name} - Software Developer`,
     template: `%s | ${SITE.name}`,
@@ -38,14 +40,14 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    site: SITE.twitter,
-    creator: SITE.twitter,
-    title: `${SITE.name} - Developer & Designer`,
-    description: SITE.description,
-    images: [SITE.defaultImage],
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   site: SITE.twitter,
+  //   creator: SITE.twitter,
+  //   title: `${SITE.name} - Developer & Designer`,
+  //   description: SITE.description,
+  //   images: [SITE.defaultImage],
+  // },
   robots: {
     index: true,
     follow: true,

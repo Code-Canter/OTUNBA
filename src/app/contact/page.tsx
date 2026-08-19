@@ -34,7 +34,7 @@ export default function Contact() {
                 <FaEnvelope className="h-6 w-6 text-blue-600 mt-1" />
                 <div className="ml-3">
                   <p className="text-sm font-medium text-gray-700">Email (Primary)</p>
-                  <a href={`mailto:${SITE.email}`} className="text-lg text-blue-600 hover:text-blue-700 font-semibold">
+                  <a target="_blank" href={`mailto:${SITE.email}`} className="text-lg text-blue-600 hover:text-blue-700 font-semibold">
                     {SITE.email}
                   </a>
                   <p className="text-sm text-gray-500 mt-1">I&apos;ll respond within 24-48 hours</p>
@@ -43,18 +43,18 @@ export default function Contact() {
             </div>
 
             {/* WhatsApp / Phone - Secondary CTA */}
-            {/* <div className="bg-green-50 rounded-lg p-4 border border-green-200">
+            <div className="bg-green-50 rounded-lg p-4 border border-green-200">
               <div className="flex items-start">
                 <FaWhatsapp className="h-6 w-6 text-green-600 mt-1" />
                 <div className="ml-3">
                   <p className="text-sm font-medium text-gray-700">WhatsApp</p>
-                  <a href={`https://wa.me/${SITE.phone.replace(/[^0-9]/g, '')}`} className="text-lg text-green-600 hover:text-green-700 font-semibold">
+                  <a target="_blank" href={`https://wa.me/${SITE.phone.replace(/[^0-9]/g, '')}`} className="text-lg text-green-600 hover:text-green-700 font-semibold">
                     {SITE.phone}
                   </a>
                   <p className="text-sm text-gray-500 mt-1">For quick questions or urgent inquiries</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Social Links */}
@@ -79,7 +79,7 @@ export default function Contact() {
                 <FaLinkedin className="h-5 w-5" />
                 <span>LinkedIn</span>
               </a>
-              <a
+              {/* <a
                 href={`https://twitter.com/${SITE.twitter.replace('@', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,13 +87,13 @@ export default function Contact() {
               >
                 <FaTwitter className="h-5 w-5" />
                 <span>Twitter</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
 
         {/* Contact Form - Optional, but keeps convenience */}
-        <section className="bg-gray-50 p-6 rounded-lg shadow-sm">
+        {/* <section className="bg-gray-50 p-6 rounded-lg shadow-sm">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Or Send a Message</h2>
           <form className="space-y-6">
             <div>
@@ -145,7 +145,7 @@ export default function Contact() {
               Send Message
             </button>
           </form>
-        </section>
+        </section> */}
       </div>
       
       {/* Call to Action */}

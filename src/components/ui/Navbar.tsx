@@ -83,7 +83,7 @@ const Navbar = () => {
             >
               <FiLinkedin className="h-5 w-5" />
             </a>
-            <a
+            {/* <a
               href={`https://twitter.com/${SITE.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const Navbar = () => {
               aria-label="Twitter"
             >
               <FiTwitter className="h-5 w-5" />
-            </a>
+            </a> */}
           </div>
           
           {/* Mobile menu button */}
@@ -144,7 +144,7 @@ const Navbar = () => {
               >
                 <FiLinkedin className="h-6 w-6" />
               </a>
-              <a
+              {/* <a
                 href={`https://twitter.com/${SITE.twitter.replace('@', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -152,7 +152,7 @@ const Navbar = () => {
                 aria-label="Twitter"
               >
                 <FiTwitter className="h-6 w-6" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
