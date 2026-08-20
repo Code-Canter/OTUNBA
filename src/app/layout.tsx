@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   keywords: SITE.keywords.join(', '),
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_NG",
     url: SITE.url,
     siteName: SITE.name,
     title: `${SITE.name} - Software Developer`,

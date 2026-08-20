@@ -2,7 +2,7 @@
 export const SITE = {
   name: "Otunba Odubanjo",
   description: "Full-Stack Software Developer building modern web applications, mobile apps, APIs, and business systems — from user interfaces and databases to deployment.",
-  url: "https://otunba.vercel.app",
+  url: "https://otunba.name.ng",
   twitter: "@",
   defaultImage: "/og-image.png",
   phone: "+234 811 504 6415",
